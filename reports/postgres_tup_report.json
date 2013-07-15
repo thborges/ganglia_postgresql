@@ -1,0 +1,13 @@
+{
+   "report_name" : "postgres_tup_report",
+   "report_type" : "standard",
+   "title" : "Postgres Tuples Movement",
+   "vertical_label" : "Tuples",
+   "series" : [
+      { "metric": "pg_tup_returned", "color": "5555cc", "label": "Returned", "line_width": "2", "type": "line" },
+      { "metric": "pg_tup_fetched", "color": "33cc33", "label": "Fetched", "line_width": "2", "type": "line" },
+      { "metric": "pg_tup_inserted", "color": "9932CC", "label": "Inserted", "line_width": "2", "type": "line" },
+      { "metric": "pg_tup_updated", "color": "FFD700", "label": "Updated", "line_width": "2", "type": "line" },
+      { "metric": "pg_tup_deleted", "color": "FF4500", "label": "Deleted", "line_width": "2", "type": "line" }
+   ]
+}
