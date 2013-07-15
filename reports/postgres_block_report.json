@@ -1,0 +1,10 @@
+{
+   "report_name" : "postgres_block_report",
+   "report_type" : "standard",
+   "title" : "Postgres Block Movement",
+   "vertical_label" : "Blocks",
+   "series" : [
+      { "metric": "pg_blks_read", "color": "DC143C", "label": "Read", "line_width": "2", "type": "line" },
+      { "metric": "pg_blks_hit", "color": "9932CC", "label": "Hit", "line_width": "2", "type": "line" }
+   ]
+} 
