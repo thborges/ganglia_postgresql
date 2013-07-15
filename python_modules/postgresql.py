@@ -128,6 +128,8 @@ metric_defs = {
     },
     "pg_tup_returned": {
         "description": "Tuples returned",
+        "value_type": "double",
+        "format": "%.0f",
         "slope": "positive",
         "units": "tuples",
         "query": "SELECT sum(tup_returned) as tup_returned FROM " + \
@@ -135,6 +137,8 @@ metric_defs = {
     },
     "pg_tup_fetched": {
         "description": "Tuples fetched",
+        "value_type": "double",
+        "format": "%.0f",
         "slope"       : "positive",
         "units": "tuples",
         "query": "SELECT sum(tup_fetched) as tup_fetched FROM " + \
@@ -142,6 +146,8 @@ metric_defs = {
     },
     "pg_tup_inserted": {
         "description": "Tuples inserted",
+        "value_type": "double",
+        "format": "%.0f",
         "slope": "positive",
         "units": "tuples",
         "query": "SELECT sum(tup_inserted) as tup_inserted FROM " + \
@@ -149,6 +155,8 @@ metric_defs = {
     },
     "pg_tup_updated": {
         "description": "Tuples updated",
+        "value_type": "double",
+        "format": "%.0f",
         "slope": "positive",
         "units": "tuples",
         "query": "SELECT sum(tup_updated) as tup_updated FROM " + \
@@ -156,6 +164,8 @@ metric_defs = {
     },
     "pg_tup_deleted": {
         "description": "Tuples deleted",
+        "value_type": "double",
+        "format": "%.0f",
         "slope": "positive",
         "units": "tuples",
         "query": "SELECT sum(tup_deleted) as tup_deleted FROM " + \
